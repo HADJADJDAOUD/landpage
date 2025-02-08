@@ -17,8 +17,8 @@ export default function Navbar() {
       <div className="flex justify-between items-center h-16 px-6 md:px-12">
         
         {/* Logo - Hidden on small screens */}
-        <div className="hidden sm:block bg-[#3e1f59] text-white">
-          <img src="/assets/logo.svg" alt="Logo" className="h-10" />
+        <div className="hidden sm:block  text-white">
+          <img src="/assets/logoN.webp" alt="Logo" className="h-24" />
         </div>
 
         {/* Desktop Navbar */}

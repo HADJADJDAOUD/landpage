@@ -23,7 +23,7 @@ export default function About() {
           </h2>
           <p className="text-lg md:text-2xl font-semibold text-gray-300 mt-6 mb-6 leading-relaxed md:w-4/5">
             Struggling with slow decision-making, scattered data, and inefficient workflows? 
-            Tatweer-505 is your AI-powered assistant, transforming business operations with intelligent 
+            AllSuiteX is your AI-powered assistant, transforming business operations with intelligent 
             automation and real-time insights. Seamlessly integrate, optimize processes, and unlock 
             your business’s full potential.
           </p>

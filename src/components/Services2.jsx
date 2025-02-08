@@ -27,16 +27,16 @@ const sections = [
   {
     title: "Intelligent Automation",
     content:
-      "Tatweer-505 reduces manual work by automating repetitive tasks, from inventory management to financial tracking. By minimizing human intervention, businesses can improve efficiency, reduce errors, and free up resources for strategic growth.",
+      "AllSuiteX reduces manual work by automating repetitive tasks, from inventory management to financial tracking. By minimizing human intervention, businesses can improve efficiency, reduce errors, and free up resources for strategic growth.",
   },
   {
     title: "Data-Driven Decision Making",
     content:
-      "In today’s fast-paced business world, real-time insights are crucial. Tatweer-505 collects, processes, and analyzes business data, transforming it into actionable recommendations. This ensures that leaders can make smart, informed decisions backed by AI-driven analytics.",
+      "In today’s fast-paced business world, real-time insights are crucial. AllSuiteX collects, processes, and analyzes business data, transforming it into actionable recommendations. This ensures that leaders can make smart, informed decisions backed by AI-driven analytics.",
   },
   {
     title: "Seamless Integration & Adaptability",
     content:
-      "Every business has its own structure and workflows. Tatweer-505 is designed to integrate smoothly with existing systems, adapting to unique operational needs. Whether you're managing sales, supply chains, or HR, our AI assistant enhances productivity without disrupting current processes.",
+      "Every business has its own structure and workflows. AllSuiteX is designed to integrate smoothly with existing systems, adapting to unique operational needs. Whether you're managing sales, supply chains, or HR, our AI assistant enhances productivity without disrupting current processes.",
   },
 ];
