@@ -8,9 +8,9 @@ export default function Home() {
       {/* Left Side - Text and Buttons */}
       <div className="flex font-oswald flex-col justify-center">
         <div>
-          <h1 className="text-8xl font-bold text-white mb-2">OPTIMIZE</h1>
-          <h1 className="text-8xl font-bold text-white mb-2">AUTOMATE</h1>
-          <h1 className="text-8xl font-bold text-white mb-4">INNOVATE</h1>
+          <h1 className=" text-5xl md:text-8xl font-bold text-white mb-2">OPTIMIZE</h1>
+          <h1 className=" text-5xl md:text-8xl font-bold text-white mb-2">AUTOMATE</h1>
+          <h1 className=" text-5xl md:text-8xl font-bold text-white mb-4">INNOVATE</h1>
     
 
           <p className="md:text-3xl  text-xl text-white mt-6 mb-6">
