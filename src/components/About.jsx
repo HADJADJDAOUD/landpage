@@ -27,7 +27,7 @@ export default function About() {
             automation and real-time insights. Seamlessly integrate, optimize processes, and unlock 
             your business’s full potential.
           </p>
-          <p className="text-pink-400 font-semibold text-lg">Jiara Martins, Chief Executive Officer</p>
+          <p className="text-pink-400 font-semibold text-lg">boukhari Aimen, Chief Executive Officer</p>
         </div>
       </div>
     </>
