@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify'; // Import ToastContainer and toast
 import 'react-toastify/dist/ReactToastify.css'; // Import the CSS for styling
 
-export default function Home() {
+export default function Home({ scrollToServices }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState(''); // State for the user's message
@@ -19,7 +19,6 @@ export default function Home() {
 
     // Display a success toast notification
     toast.success('Thank you! We have received your submission.', {
-      
       autoClose: 3000, // Close after 3 seconds
     });
 
@@ -48,8 +47,11 @@ export default function Home() {
             >
               Request demo
             </button>
-            <button className="px-6 py-3 bg-gray-600 text-white rounded-lg text-lg font-medium hover:bg-gray-700 transition">
-              Learn more
+            <button
+              onClick={scrollToServices} // Trigger scroll to services
+              className="px-6 py-3 bg-gray-600 text-white rounded-lg text-lg font-medium hover:bg-gray-700 transition"
+            >
+              <a>Learn more</a>
             </button>
           </div>
         </div>
@@ -62,6 +64,7 @@ export default function Home() {
           />
         </div>
       </div>
+
       {/* Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -115,6 +118,7 @@ export default function Home() {
           </div>
         </div>
       )}
+
       {/* Toast Container */}
       <ToastContainer />
     </div>
